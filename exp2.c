@@ -24,18 +24,14 @@ main()
         {
             case 1:
             enqueue();
-            printf("__________________________________\n");
             break;
             case 2:
             dequeue();
-            printf("__________________________________\n");
             break;
             case 3:
             display();
-            printf("__________________________________\n");
             break;
             case 4:
-            printf("Have a good day.\n");
             exit(0);
             default:
             printf("Incorrect choice \n");
