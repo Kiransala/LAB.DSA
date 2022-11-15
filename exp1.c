@@ -38,7 +38,7 @@ void Push()
 	int x;
 	if(Top==Size-1)
 	{
-		printf("\nOverflow!!");
+		printf("\nStack is full!!");
 	}
 	else
 	{
@@ -53,7 +53,7 @@ void Pop()
 {
 	if(Top==-1)
 	{
-		printf("\nUnderflow!!");
+		printf("\nStack is empty!!");
 	}
 	else
 	{
@@ -66,7 +66,7 @@ void Trav()
 {
 	if(Top==-1)
 	{
-		printf("\nUnderflow!!");
+		printf("\nStack is empty!!");
 	}
 	else
 	{
